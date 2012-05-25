@@ -169,7 +169,7 @@
 
 /*----- ARTICLE META INFO -----*/
 
-     #designline{
+     .designline{
         margin-top:50px;
      }
 
@@ -388,7 +388,7 @@
         font:11px Georgia, "Times New Roman", Times, serif;
         padding:0;
         margin:0 2px;
-        background:#34hdf5;
+        background:#34fdf5;/* h? */
         color:#222;
         text-decoration:none;
      }
