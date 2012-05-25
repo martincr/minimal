@@ -7,7 +7,7 @@
      body{
         background:#ffffff;
         color:#222;
-        font:12px/20px Georgia, "Times New Roman", Times, serif;
+        font:12px/20px Georgia,"Times New Roman",Times,serif;
         padding-top:25px;
         text-align:center;
         width:500px;
@@ -119,7 +119,7 @@
         background:url(http://static.tumblr.com/bpryy0m/6lRl6gmys/search.jpg) left no-repeat;
         width:225px;
         padding:2px 0 0 20px;
-        font:12px/12px Georgia, "Times New Roman", Times, serif;
+        font:12px/12px Georgia,"Times New Roman",Times,serif;
         color:#222;
         border:0px;
      }
