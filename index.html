@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <!--
      Theme: The Minimalist v1.
      Design: The Minimalist (http://minimalist.co)
@@ -11,21 +8,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
-     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
-     <title>The Minimalist</title>  
-     <meta name="description" content="For the discerning and the stylish" />
-     <meta name="if:Show description" content="1" />  
-     <meta name="if:Show search" content="1" />
-     <meta name="text:Twitter name" content="" />
-     <meta name="text:Disqus Shortname" content="" />
-     <meta name="text:Google Analytics ID" content="" />  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<title>The Minimalist</title>  
+<meta name="description" content="For the discerning and the stylish" />
+<meta name="if:Show description" content="1" />  
+<meta name="if:Show search" content="1" />
+<meta name="text:Twitter name" content="" />
+<meta name="text:Disqus Shortname" content="" />
+<meta name="text:Google Analytics ID" content="" />  
 
-     <link rel="shortcut icon" href="http://24.media.tumblr.com/avatar_3e9360394c39_16.png" />
-     <link rel="alternate" type="application/rss+xml" title="The Minimalist" href="http://minimalist.co/rss" />
+<link rel="shortcut icon" href="http://24.media.tumblr.com/avatar_3e9360394c39_16.png" />
+<link rel="alternate" type="application/rss+xml" title="The Minimalist" href="http://minimalist.co/rss" />
 
 <!-- Styles -->
 
-<link rel="stylesheet" href="http://static.tumblr.com/f1whv92/Mp9l6ewcg/reset.css" />
+<link rel="stylesheet" href="reset.css" />
 
 <link rel="stylesheet" href="style.css" />
 <style type="text/css">
@@ -38,47 +35,47 @@
      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-     <script src="http://static.tumblr.com/oawavkn/JPAlyq9zp/cufon-yui.js" type="text/javascript"></script>
-     <script src="http://static.tumblr.com/f1whv92/fgIl65bo1/cufon_300.font.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="http://static.tumblr.com/oawavkn/JPAlyq9zp/cufon-yui.js" type="text/javascript"></script>
+<script src="http://static.tumblr.com/f1whv92/fgIl65bo1/cufon_300.font.js" type="text/javascript"></script>
 
-     <script type="text/javascript">
-        Cufon.replace('h1',{ fontFamily: "Cufon" });
-        Cufon.replace('h2',{ fontFamily: "Cufon" });
-        Cufon.replace('h3',{ fontFamily: "Cufon" });
-        Cufon.replace('#mainNav',{ fontFamily: "Cufon" });
-        Cufon.replace('#siteDescription',{ fontFamily: "Cufon" });
-     </script>
+<script type="text/javascript">
+  Cufon.replace('h1',{ fontFamily: "Cufon" });
+  Cufon.replace('h2',{ fontFamily: "Cufon" });
+  Cufon.replace('h3',{ fontFamily: "Cufon" });
+  Cufon.replace('#mainNav',{ fontFamily: "Cufon" });
+  Cufon.replace('#siteDescription',{ fontFamily: "Cufon" });
+</script>
 
 <script>
-     $(function() {
-        var search = $("#txtSearch").val();
-        var placeholder = "Search...";
-        var fadeToOpacity = 0.4;
-        $("#txtSearch").fadeTo("normal", fadeToOpacity);
-        if (search == "") {
-     $("#txtSearch").val(placeholder);
-     }
-     $("#txtSearch").blur(function() {
-        search = $("#txtSearch").val();
-        if (!(search != "" && search != placeholder)) {
-        $("#txtSearch").val(placeholder);
-     }
-     $("#txtSearch").fadeTo("normal", fadeToOpacity);
-     });
-     $("#txtSearch").focus(function() {
-        search = $("#txtSearch").val();
-        if (search == placeholder) {
-        $("#txtSearch").val("");
-     }
-     $("#txtSearch").fadeTo("normal", 1);
-     });
-     $("#btnSearch").click(function() {
-     $("#frmSearch").slideToggle("normal");
-     $(this).toggleClass("active");
- //  $("#txtSearch").focus();
-     });
-     });
+  $(function() {
+    var search = $("#txtSearch").val();
+    var placeholder = "Search...";
+    var fadeToOpacity = 0.4;
+    $("#txtSearch").fadeTo("normal", fadeToOpacity);
+    if (search == "") {
+  $("#txtSearch").val(placeholder);
+  }
+  $("#txtSearch").blur(function() {
+    search = $("#txtSearch").val();
+    if (!(search != "" && search != placeholder)) {
+    $("#txtSearch").val(placeholder);
+  }
+  $("#txtSearch").fadeTo("normal", fadeToOpacity);
+  });
+  $("#txtSearch").focus(function() {
+    search = $("#txtSearch").val();
+    if (search == placeholder) {
+    $("#txtSearch").val("");
+  }
+  $("#txtSearch").fadeTo("normal", 1);
+  });
+  $("#btnSearch").click(function() {
+  $("#frmSearch").slideToggle("normal");
+  $(this).toggleClass("active");
+  //  $("#txtSearch").focus();
+  });
+  });
 </script>
 
 <!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS -->
@@ -95,29 +92,28 @@
 <meta http-equiv="x-dns-prefetch-control" content="off"/></head>
 <body>
 
-     <header id="masthead" class="clearfix">
-        <div id="thehead">          
-              <h1 class="cufon"><a href="/">The Minimalist</a></h1>
-              <form action="/search" method="get" id="frmSearch">
-              <input type="text" id="txtSearch" name="q" value="" />
-              </form>    
+  <header id="masthead" class="clearfix">
+    <div id="thehead">          
+      <h1 class="cufon"><a href="/">The Minimalist</a></h1>
+      <form action="/search" method="get" id="frmSearch">
+      <input type="text" id="txtSearch" name="q" value="" />
+      </form>   
 
-        <div id="siteDescription">For the discerning and the stylish</div>
+    <div id="siteDescription">For the discerning and the stylish</div>
 
-           <nav id="mainNav">  
+       <nav id="mainNav">  
 
-              <li><a href="/archive">Archive</a></li>
-              <li><a href="/random">Random</a></li>
-              <li><a href="http://minimalist.co/rss">RSS</a></li>
-              <li><a href="javascript:;" id="btnSearch">Search</a></li>
-
-              <li><a href="http://twitter.com/minimalistco">Twitter</a></li>
-
-              <li><a href="/work">Work</a></li>
-
-           </nav>         
-        </div>
-     </header>
+          <li><a href="/archive">Archive</a></li>
+          <li><a href="/random">Random</a></li>
+          <li><a href="http://minimalist.co/rss">RSS</a></li>
+          <li><a href="javascript:;" id="btnSearch">Search</a></li>
+          <!--
+          <li><a href="http://twitter.com/minimalistco">Twitter</a></li>
+          <li><a href="/work">Work</a></li>
+          -->
+       </nav>         
+    </div>
+  </header>
 
      <section id="main" class="clearfix">
      <div class="layout">           
@@ -181,26 +177,14 @@
        <article>
           <div>
 
-               <ul class="chat">
-
-                  <li><strong>Jack:</strong> Hey, you know what sucks?
-  </li>
-
-                  <li><strong>Lindsey:</strong> vaccuums
-  </li>
-
-                  <li><strong>Jack:</strong> Hey, you know what sucks in a metaphorical sense?
-  </li>
-
-                  <li><strong>Lindsey:</strong> black holes
-  </li>
-
-                  <li><strong>Jack:</strong> Hey, you know what just isn&#039;t cool?
-  </li>
-
-                  <li><strong>Lindsey:</strong> lava?</li>
-
-               </ul>
+            <ul class="chat">
+              <li><strong>Jack:</strong> Hey, you know what sucks?</li>
+              <li><strong>Lindsey:</strong> vaccuums</li>
+              <li><strong>Jack:</strong> Hey, you know what sucks in a metaphorical sense?</li>
+              <li><strong>Lindsey:</strong> black holes</li>
+              <li><strong>Jack:</strong> Hey, you know what just isn&#039;t cool?</li>
+              <li><strong>Lindsey:</strong> lava?</li>
+            </ul>
 
           </div>
        </article>
@@ -215,20 +199,20 @@
        <article>
           <div>
 
-               <div class="audioleft">
-                  <div class="audioc">
-                  <div class="audio"><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/javascript/tumblelog.js?818"></script><span id="audio_player_459260683">[<a href="#" title="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_459260683",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player_black.swf?audio_file=http://www.tumblr.com/audio_file/459260683/tumblr_ksc4i2SkVU1qz8ouq&color=FFFFFF" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script></div>
-                  </div>
-               </div>
-               <div class="audioright"> 
-                  <div class="audioCaption"><b>Allison Weiss</b>
-  <p>&mdash;Fingers Crossed</p>
-                  </div>
-               </div>
-               <div class="audioClear"></div>
-               <div class="audioContainer">
-                  <p><strong><a href="#" title="http://allisonweiss.tumblr.com/">Allison Weiss</a> —</strong> Fingers Crossed</p>
-               </div>
+            <div class="audioleft">
+              <div class="audioc">
+              <div class="audio"><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/javascript/tumblelog.js?818"></script><span id="audio_player_459260683">[<a href="#" title="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_459260683",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player_black.swf?audio_file=http://www.tumblr.com/audio_file/459260683/tumblr_ksc4i2SkVU1qz8ouq&color=FFFFFF" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script></div>
+              </div>
+            </div>
+            <div class="audioright"> 
+              <div class="audioCaption"><b>Allison Weiss</b>
+                <p>&mdash;Fingers Crossed</p>
+              </div>
+            </div>
+            <div class="audioClear"></div>
+            <div class="audioContainer">
+              <p><strong><a href="#" title="http://allisonweiss.tumblr.com/">Allison Weiss</a> —</strong> Fingers Crossed</p>
+            </div>
 
           </div>
        </article>
@@ -243,31 +227,27 @@
        <article>
           <div>
 
-                <h2><a href="#" title="http://demo.tumblr.com/post/232/an-example-post">An example post</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer <a href="#" title="/">adipiscing elit</a>. Aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. Aliquam mattis porta urna. Maecenas dui neque, rhoncus sed, vehicula vitae, auctor at, nisi. Aenean id massa ut lacus molestie porta. Curabitur sit amet quam id libero suscipit venenatis.</p>
-  <ul><li>Lorem ipsum dolor sit amet.</li>
-  <li>Consectetuer adipiscing elit. </li>
-  <li>Nam at tortor quis ipsum tempor aliquet.</li>
-  </ul><p>Cum sociis <a href="#" title="/">natoque penatibus</a> et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse sed ligula. Sed volutpat odio non turpis gravida luctus. Praesent elit pede, iaculis facilisis, vehicula mattis, tempus non, arcu.</p>
-  <blockquote>Donec placerat mauris commodo dolor. Nulla tincidunt. Nulla vitae augue.</blockquote>
-  <p>Suspendisse ac pede. Cras <a href="#" title="/">tincidunt pretium</a> felis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque porttitor mi id felis. Maecenas nec augue. Praesent a quam pretium leo congue accumsan.</p>
+            <h2><a href="#" title="http://demo.tumblr.com/post/232/an-example-post">An example post</a></h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer <a href="#" title="/">adipiscing elit</a>. Aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. Aliquam mattis porta urna. Maecenas dui neque, rhoncus sed, vehicula vitae, auctor at, nisi. Aenean id massa ut lacus molestie porta. Curabitur sit amet quam id libero suscipit venenatis.</p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Consectetuer adipiscing elit. </li>
+              <li>Nam at tortor quis ipsum tempor aliquet.</li>
+            </ul>
+            <p>Cum sociis <a href="#" title="/">natoque penatibus</a> et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse sed ligula. Sed volutpat odio non turpis gravida luctus. Praesent elit pede, iaculis facilisis, vehicula mattis, tempus non, arcu.</p>
+            <blockquote>Donec placerat mauris commodo dolor. Nulla tincidunt. Nulla vitae augue.</blockquote>
+            <p>Suspendisse ac pede. Cras <a href="#" title="/">tincidunt pretium</a> felis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque porttitor mi id felis. Maecenas nec augue. Praesent a quam pretium leo congue accumsan.</p>
 
           </div>
        </article>
 
         <nav id="pageNav">
            <ul class="clearfix">
-
              <li><a href="" class="active">1</a></li>
-
              <li><a href="/page/2">2</a></li>
-
              <li><a href="/page/3">3</a></li>
-
              <li><a href="/page/4">4</a></li>
-
              <li><a href="/page/5">5</a></li>
-
              <li><a href="/page/2" id="pageNavOlder">Older</a></li> 
            </ul>
         </nav>
@@ -275,15 +255,15 @@
      </div><!-- END layout -->
      </section>
 
-     <footer id="sitemeta">
-        <div class="clearfix">
-           <div class="thefooter">
-              <p><a href="http://www.tumblr.com/theme/12051">The Minimalist Theme</a> designed by <a href="http://minimalist.co">The Minimalist</a> | Powered by <a href="http://tumblr.com">Tumblr</a></p>
-           </div>
-        </div>
-     </footer>
+    <footer id="sitemeta">
+      <div class="clearfix">
+         <div class="thefooter">
+            <p><a href="http://www.tumblr.com/theme/12051">The Minimalist Theme</a> designed by <a href="http://minimalist.co">The Minimalist</a> | Powered by <a href="http://tumblr.com">Tumblr</a></p>
+         </div>
+      </div>
+    </footer>
 
-        <script type="text/javascript">var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try{var pageTracker=_gat._getTracker("UA-12390926-4");pageTracker._trackPageview()}catch(err){}</script>
+    <script type="text/javascript">var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try{var pageTracker=_gat._getTracker("UA-12390926-4");pageTracker._trackPageview()}catch(err){}</script>
 
 </body>
 </html>
